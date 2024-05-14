@@ -1,0 +1,42 @@
+.payment-container {
+    margin-top: 80px;
+}
+
+.user-data-container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.user-details-info {
+    font-weight: bold;
+}
+
+.cart-list-data {
+    overflow: auto;
+    height: 43vh;
+}
+
+.back-btn {
+    background-color: #372549;
+    color: #EACDC2;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.back-btn:hover {
+    background-color: #774C60;
+    color: #EACDC2;
+}
+
+.cart-name {
+    margin-top: 0;
+    font-family: "Jersey 15", sans-serif;
+}
+
+@media screen and (max-width:425px) {
+    .user-data-container {
+        margin-top: 100px;
+    }
+}

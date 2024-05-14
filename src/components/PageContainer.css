@@ -1,0 +1,94 @@
+.increment-btn,
+.decrement-btn {
+    background-color: #372549;
+    color: #EACDC2;
+    margin: 0 20px 0 20px;
+    flex: 1;
+}
+
+.increment-btn:hover,
+.decrement-btn:hover {
+    color: #EACDC2;
+    background-color: #774C60;
+    flex: 1;
+}
+
+.count {
+    flex: 1;
+}
+
+.card-info {
+    font-weight: bolder;
+}
+
+.add-cart,
+.buy-now {
+    background-color: #774C60;
+    color:  #EACDC2;
+}
+
+.add-cart:hover,
+.buy-now:hover {
+    color: #1A1423;
+    background-color: #EACDC2;
+}
+
+.card {
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 500px;
+    margin-top: 25px;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+img {
+    height: 260px;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-family: "Source Serif 4", serif;
+    font-size: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #774C60;
+}
+
+.categories-data {
+    flex: 20%;
+    font-size: larger;
+    background-color: #372549;
+}
+
+.products-data {
+    flex: 80%;
+}
+
+.categories-info {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.categories-info:hover {
+    cursor: pointer;
+}
+
+.categories-info:hover {
+    background-color: #774C60;
+    color: #EACDC2;
+    border: 1px solid #774C60;
+    border-radius: 10px;
+}
+
+.active {
+    background-color: #774C60;
+    border-radius: 10px;
+}
